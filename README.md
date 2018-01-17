@@ -1,1 +1,1 @@
-# google-homepage
+The creation of the Google homepage following The Odin Project.
