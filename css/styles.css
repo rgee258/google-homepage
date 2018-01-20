@@ -1,0 +1,164 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.top-nav {
+	position: absolute;
+	top: 0;
+	width: 99%;
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+.top-nav a {
+	font-family: arial, sans-serif;
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.top-left {
+	float: left;
+	margin-left: 15px;
+	opacity: 0.75;
+}
+
+.top-left a {
+	margin-right: 10px;
+	padding-left: 5px;
+}
+
+.top-left a:hover {
+	text-decoration: underline;
+}
+
+.top-right {
+	float: right;
+	margin-right: 15px;
+	opacity: 0.87;
+}
+
+.top-right a {
+	padding-left: 15px;
+}
+
+.top-right-first:hover {
+	opacity: 0.85;
+	text-decoration: underline;
+}
+
+.top-right-last {
+	margin-right: 0px;
+	margin-left: 15px;
+	padding: 7px 12px 7px 12px;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(top, #035efc, #4683ea);
+	background: -moz-linear-gradient(top, #035efc, #4683ea);
+	font-weight: bold;
+}
+
+.top-right-last:link, .top-right-last:visited {
+	color: white;
+}
+
+.middle {
+	text-align: center;
+	margin-top: 15%;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input {
+	border: 1px solid #e0e0e0;
+	border-radius: 2px;
+	font-family: arial;
+	font-size: 16px;
+}
+
+form .searchbox {
+	width: 43%;
+	margin: 30px;
+	padding: 13px;
+	box-shadow: 0px 4px 10px -5px #a6a6a6;
+}
+
+form .searchbox:focus {
+	box-shadow: 0px 4px 10px -2px #a6a6a6;
+	outline: 0;
+}
+
+.buttons {
+	display: block;
+}
+
+.buttons input {
+	padding: 10px 17px;
+	background-color: #f2f2f2;
+	color: #757575;
+	font-weight: bold;
+	font-size: 13px;
+	border: none;
+}
+
+.buttons input:hover {
+	border: 1px solid #c6c6c6;
+	color: #222222;
+	background-color: #f8f8f8;
+}
+
+.buttons .button1 {
+	margin-right: 2px;
+}
+
+.buttons .button2 {
+	margin-left: 2px;
+}
+
+.bottom-nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 11px 0;
+	background-color: #f2f2f2;
+	outline: 1px solid #e4e4e4;
+}
+
+.bottom-nav a {
+	font-family: arial, sans-serif;
+	color: #666666;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.bottom-nav a:hover {
+	text-decoration: underline;
+}
+
+.bottom-left {
+	float: left;
+	margin-left: 30px;
+}
+
+.bottom-left a {
+	padding-right: 24px;
+}
+
+.bottom-right {
+	float: right;
+	margin-right: 30px;
+}
+
+.bottom-right a {
+	padding-left: 24px;
+}
